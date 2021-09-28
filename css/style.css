@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -26,7 +27,7 @@ body{
 }
 
 .header-text{
-    font-family: 'Roboto', sans-serif;
+  
     font-weight: 900;
     font-size: 40px;
     vertical-align: 20px;
@@ -36,6 +37,81 @@ body{
     padding: 8px;
 }
 
+.buttons{
+    margin-bottom: 30px;
+}
+
 .button{
     border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.btn-blue{
+    background-color: #4169E1;
+    color: white;
+}
+.btn-white{
+    color: rgba(112, 102, 102, 0.404);
+}
+
+h2{
+    display: inline-block;
+}
+
+.arrow{
+    font-size: 20px;
+ ]
+}
+
+ul{
+    list-style: none;
+  
+    
+}
+
+.checked{
+    color: lightgreen;
+    border-radius: 50%;
+    border: 1px solid lightgreen;
+    text-align: center;
+    margin: 5px;
+}
+
+.un-checked{
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.check-button{
+
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.editorial{
+    background-color:#4169E1 ;
+    color:white;
+}
+
+.q1goals{
+    background-color: purple;
+    color: white;
+}
+
+.recruiting{
+    background-color: #04aa6d;
+    color: white;
+}
+
+.website{
+    background-color: #DC143C;
+    color: white;
+}
+
+.sales{
+    background-color: #9ACD32;
+    color: white;
 }
